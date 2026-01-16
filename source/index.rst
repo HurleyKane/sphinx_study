@@ -14,6 +14,8 @@ hello world!!!
 
 v2.1
 
+documentation: https://app.readthedocs.org/projects/sphinx-study223/
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
