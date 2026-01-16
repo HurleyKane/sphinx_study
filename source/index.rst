@@ -12,6 +12,7 @@ documentation for details.
 
 hello world!!!
 
+v2.1
 
 .. toctree::
    :maxdepth: 2
