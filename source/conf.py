@@ -27,4 +27,21 @@ language = 'zh_cn'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'collapse_navigation': False,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}
+
+html_context = {
+    "display_github": True, # Integrate GitHub
+    "github_user": "HurleyKane",
+    "github_repo": "sphinx_study",
+    "github_version": "master",
+    "conf_py_path": "/docs/",
+    "current_version": "latest",  # 这里会影响下拉菜单默认显示
+}
+
 html_static_path = ['_static']
