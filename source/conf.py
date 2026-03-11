@@ -17,6 +17,7 @@ release = 'v1.0'
 extensions = [
     "nbsphinx", # notebook 支持 
 ]
+nbsphinx_execute = "never"
 
 templates_path = ['_templates']
 exclude_patterns = []
