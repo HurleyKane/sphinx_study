@@ -14,7 +14,9 @@ release = 'v1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    "nbsphinx", # notebook 支持 
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -27,6 +29,7 @@ language = 'zh_cn'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
+# html_theme = "pydata_sphinx_theme"
 html_theme_options = {
     'collapse_navigation': False,
     'sticky_navigation': True,
@@ -40,7 +43,7 @@ html_context = {
     "github_user": "HurleyKane",
     "github_repo": "sphinx_study",
     "github_version": "master",
-    "conf_py_path": "/docs/",
+    "conf_py_path": "/docs/", # 这里的路径计算从项目根目录开始
     "current_version": "latest",  # 这里会影响下拉菜单默认显示
 }
 

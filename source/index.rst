@@ -14,8 +14,10 @@ hello world!!!
 
 v2.1
 
-documentation: https://app.readthedocs.org/projects/sphinx-study223/en/latest/
+documentation: https://sphinx-study223.readthedocs.io/en/latest/
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
+   test.ipynb
